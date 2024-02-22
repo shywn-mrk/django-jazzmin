@@ -54,7 +54,7 @@ JAZZMIN_SETTINGS = {
         {"name": "Home",  "url": "admin:index", "permissions": ["auth.view_user"]},
 
         # external url that opens in a new window (Permissions can be added)
-        {"name": "Support", "url": "https://github.com/farridav/django-jazzmin/issues", "new_window": True},
+        {"name": "Support", "url": "https://github.com/shywn-mrk/django-jazzmin/issues", "new_window": True},
 
         # model admin to link to (Permissions checked against model)
         {"model": "auth.User"},
@@ -69,7 +69,7 @@ JAZZMIN_SETTINGS = {
 
     # Additional links to include in the user menu on the top right ("app" url type is not allowed)
     "usermenu_links": [
-        {"name": "Support", "url": "https://github.com/farridav/django-jazzmin/issues", "new_window": True},
+        {"name": "Support", "url": "https://github.com/shywn-mrk/django-jazzmin/issues", "new_window": True},
         {"model": "auth.user"}
     ],
 
@@ -326,7 +326,7 @@ Namely:
 - `LOCALE_DIRS` is setup
 - `LANGUAGES` have been defined
 
-See our [test app settings](https://github.com/farridav/django-jazzmin/tree/master/tests/test_app/library/settings.py) 
+See our [test app settings](https://github.com/shywn-mrk/django-jazzmin/tree/master/tests/test_app/library/settings.py) 
 for a practical example.
 
 ![Language chooser](./img/language_chooser.png)
@@ -340,7 +340,7 @@ defaults to `False`
 ### Adding extra actions to model's form view
 
 Add a template for your model on your main template directory, 
-e.g [app/templates/admin/app_name/model_name/submit_line.html](https://github.com/farridav/django-jazzmin/tree/master/tests/test_app/library/books/templates/admin/loans/bookloan/submit_line.html)
+e.g [app/templates/admin/app_name/model_name/submit_line.html](https://github.com/shywn-mrk/django-jazzmin/tree/master/tests/test_app/library/books/templates/admin/loans/bookloan/submit_line.html)
 
 ```djangotemplate
 {# extends "admin/submit_line.html" #}

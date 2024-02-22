@@ -99,7 +99,7 @@ def test_top_menu(admin_client, custom_jazzmin_settings):
         {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
         {
             "name": "Support",
-            "url": "https://github.com/farridav/django-jazzmin/issues",
+            "url": "https://github.com/shywn-mrk/django-jazzmin/issues",
             "new_window": True,
         },
         {"model": "auth.User"},
@@ -112,7 +112,7 @@ def test_top_menu(admin_client, custom_jazzmin_settings):
         {"name": "Home", "link": "/en/admin/"},
         {
             "name": "Support",
-            "link": "https://github.com/farridav/django-jazzmin/issues",
+            "link": "https://github.com/shywn-mrk/django-jazzmin/issues",
         },
         {"name": "Users", "link": "/en/admin/auth/user/"},
         {
@@ -138,7 +138,7 @@ def test_user_menu(admin_user, client, custom_jazzmin_settings):
         {"name": "Home", "url": "admin:index", "permissions": ["auth.view_user"]},
         {
             "name": "Support",
-            "url": "https://github.com/farridav/django-jazzmin/issues",
+            "url": "https://github.com/shywn-mrk/django-jazzmin/issues",
             "new_window": True,
         },
         {"model": "auth.User"},
@@ -152,7 +152,7 @@ def test_user_menu(admin_user, client, custom_jazzmin_settings):
         {"link": "/en/admin/logout/", "name": "Log out"},
         {"link": "/en/admin/", "name": "Home"},
         {
-            "link": "https://github.com/farridav/django-jazzmin/issues",
+            "link": "https://github.com/shywn-mrk/django-jazzmin/issues",
             "name": "Support",
         },
         {"link": "/en/admin/auth/user/", "name": "Users"},

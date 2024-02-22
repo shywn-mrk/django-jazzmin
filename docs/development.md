@@ -8,7 +8,7 @@ Ensure you have poetry installed (`pip install poetry`)
 
 Then get setup with `poetry install`
 
-    git clone git@github.com:farridav/django-jazzmin.git
+    git clone git@github.com:shywn-mrk/django-jazzmin.git
     poetry install
 
 ## Running the test project

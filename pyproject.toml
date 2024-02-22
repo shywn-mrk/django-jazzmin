@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "django-jazzmin"
+name = "skn-django-jazzmin"
 version = "2.6.0"
 description = "Drop-in theme for django admin, that utilises AdminLTE 3 & Bootstrap 4 to make yo' admin look jazzy"
 license = "MIT"
 authors = ["Shipit <packages@shipit.ltd>"]
 maintainers = ["Shipit <packages@shipit.ltd>"]
 readme = "README.md"
-homepage = "https://github.com/farridav/django-jazzmin"
-repository = "https://github.com/farridav/django-jazzmin"
+homepage = "https://github.com/shywn-mrk/django-jazzmin"
+repository = "https://github.com/shywn-mrk/django-jazzmin"
 documentation = "https://django-jazzmin.readthedocs.io"
 keywords = ["django", "dashboard", "theme", "admin", "jazzmin"]
 classifiers = [
@@ -65,10 +65,10 @@ ipdb = "^0.13.9"                # ipython breakpoints
 black = "^21.12b0"              # Code formatting and linting (with pyproject.toml support)
 
 [tool.poetry.urls]
-"Bug Tracker" = "https://github.com/farridav/django-jazzmin/issues"
-"All Releases" = "https://github.com/farridav/django-jazzmin/releases"
-"Latest Release" = "https://github.com/farridav/django-jazzmin/releases/latest"
-"Source" = "https://github.com/farridav/django-jazzmin"
+"Bug Tracker" = "https://github.com/shywn-mrk/django-jazzmin/issues"
+"All Releases" = "https://github.com/shywn-mrk/django-jazzmin/releases"
+"Latest Release" = "https://github.com/shywn-mrk/django-jazzmin/releases/latest"
+"Source" = "https://github.com/shywn-mrk/django-jazzmin"
 
 [tool.pytest.ini_options]
 addopts = "--pdbcls=IPython.terminal.debugger:TerminalPdb -p no:warnings --junitxml=.reports/coverage.xml --cov-report=html:.reports/htmlcov --cov jazzmin"

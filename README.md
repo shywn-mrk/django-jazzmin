@@ -6,9 +6,12 @@
 [![PyPI version](https://badge.fury.io/py/django-jazzmin.svg)](https://pypi.python.org/pypi/django-jazzmin/)
 ![Python versions](https://img.shields.io/badge/python-%3E%3D3.6-brightgreen)
 ![Django Versions](https://img.shields.io/badge/django-%3E%3D2-brightgreen)
-[![Coverage Status](https://coveralls.io/repos/github/farridav/django-jazzmin/badge.svg?branch=master)](https://coveralls.io/github/farridav/django-jazzmin?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/shywn-mrk/django-jazzmin/badge.svg?branch=master)](https://coveralls.io/github/shywn-mrk/django-jazzmin?branch=master)
 
-Drop-in theme for django admin, that utilises AdminLTE 3 & Bootstrap 4 to make yo' admin look jazzy
+Drop-in theme for django admin, that utilises AdminLTE 3 & Bootstrap 4 to make yo' admin look jazzy.
+This is a fork from (django-jazzmin)[https://github.com/farridav/django-jazzmin] by (farridav)[https://github.com/farridav] and all of the credit goes to him.
+I just had some issues with the original project in production environment with whitenoise but considering the changes that hasn't been released in 2.6.0,
+I had to build and release my own version of the project.
 
 ## Installation
 ```
@@ -16,7 +19,7 @@ pip install django-jazzmin
 ```
 
 ## Documentation
-See [Documentation](https://django-jazzmin.readthedocs.io) or [Test App](https://github.com/farridav/django-jazzmin/tree/master/tests/test_app/library/settings.py)
+See [Documentation](https://django-jazzmin.readthedocs.io) or [Test App](https://github.com/shywn-mrk/django-jazzmin/tree/master/tests/test_app/library/settings.py)
 
 ## Demo
 Live demo https://django-jazzmin.herokuapp.com/admin
